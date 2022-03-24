@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark  fixed-top" style="background-color: #313132;">
+            <div class="container-fluid navbarStyle " style="width: 1000px; ">
+                <!-- Handburger Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Apple icon -->
+                <a class="navbar-brand d-none d-sm-none d-md-none d-lg-block" href="#"> <svg
+                        xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 8px;" width="16" height="16"
+                        fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+                        <path
+                            d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z" />
+                    </svg></a>
+                <!-- Apple icon -->
+                <a class="navbar-brand d-block d-sm-block d-md-block d-lg-none mx-auto" href="#"> <svg
+                        xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 8px; margin-right: 40px;" width="16"
+                        height="16" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+                        <path
+                            d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z" />
+                    </svg></a>
+                <!-- Bag Icon -->
+                <a href="" class="navbarStyle d-block d-sm-block d-md-block d-lg-none ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-bag " viewBox="0 0 16 16" style="margin-bottom: 8px;">
+                        <path
+                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                    </svg>
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav    navbar-align d-flex justify-content-evenly ac-gn-list"
+                        style="width: 100%;">
+
+
+
+
+                        <li class=" nav-item"><a href="" class="nav-link">Store</a></li>
+                        <li class=" nav-item"><a href="" class="nav-link">Mac</a></li>
+                        <li class=" nav-item"><a href="" class="nav-link">iPad</a></li>
+                        <li class=" nav-item"><a href="" class="nav-link">iPhone</a></li>
+                        <li class=" nav-item"><a href="" class="nav-link">Watch</a></li>
+                        <li class=" nav-item"><a href="" class="nav-link">AirPods</a></li>
+                        <li class=" nav-item"><a href="" class="nav-link">TV & Home</a></li>
+                        <li class=" nav-item"><a href="" class="nav-link">Only on Apple</a></li>
+                        <li class=" nav-item"><a href="" class="nav-link">Accessories</a></li>
+                        <li class=" nav-item"><a href="login.html" class="nav-link">Sign In</a></li>
+                        <li class=" nav-item"><a href="" class="nav-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg>
+                            </a></li>
+                        <li class=" nav-item"><a href="" class="nav-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-bag" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                                </svg>
+                            </a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="main-head text-center">
+            <p class="fs-1 fw-bold  lh-1">iPhone 13 Pro</p>
+            <p class="fs-3  ">Oh. So. Pro </p>
+            <p>
+                <a href="" class="text-decoration-none">
+                    Learn More >
+                </a>
+                <a href="" class="text-decoration-none">Buy ></a>
+            </p>
+        </div>
+        <div class="row ">
+            <div class="">
+                <img class="img-responsive d-none d-sm-none d-md-block d-lg-block mx-auto img-main " src="images/p1.PNG"
+                    height="80%" />
+                <!--Tab-->
+            </div>
+            <div class=" ">
+                <img class="img-responsive d-md-none d-lg-none mx-auto d-block img-main" src="images/p2.PNG"
+                    height="80%" />
+                <!--Mobile-->
+            </div>
+
+
+        </div>
+        <div class="main-head text-center ">
+            <p class="fs-1 fw-bold  lh-1">iPhone SE</p>
+            <p class="fs-3  ">Love the power.Love the price</p>
+            <p>
+                <a href="" class="text-decoration-none">
+                    Learn More >
+                </a>
+                <a href="" class="text-decoration-none">Buy ></a>
+            </p>
+        </div>
+        <div class="row ">
+            <div class="">
+                <img class=" img-responsive d-none d-sm-none d-md-block d-lg-block mx-auto " src="images/p3.PNG"
+                    style="width: 80%;" />
+            </div>
+        </div>
+        <div class=" ">
+            <img class="img-responsive d-md-none d-lg-none mx-auto d-block " src="images/p3.PNG" style="width: 50% ;" />
+        </div>
+    </div>
+    <div class="" style="background: black; padding: 4em; align-items: center; width: 100%;">
+        <div class="row align-items-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class=" text-center " style="color: white;">
+                    <p class="fs-1 fw-bold  lh-1">iPad air</p>
+                    <p class="fs-3  ">Light. Bright. Full of might</p>
+                    <p>
+                        <a href="" class="text-decoration-none">
+                            Learn More >
+                        </a>
+                        <a href="" class="text-decoration-none">Buy ></a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6  ">
+                <img class="img-responsive mx-auto" src="images/p4.PNG" style="width: 75%; margin-left: 100px;">
+
+                </img>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center " style="padding: 10%;">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 " style="align-items: center;">
+            <p class="fs-2   lh-1">Studio Display</p>
+            <p class="fs-6  ">A sight to be bold</p>
+            <p>
+                <a href="" class="text-decoration-none">
+                    Learn More >
+                </a>
+                <a href="" class="text-decoration-none">Buy ></a>
+            </p>
+            <img src="images/p5.PNG" class="imageresponsive" style="width: 75%;" alt="">
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <p class="fs-2   lh-1">Mac Studio</p>
+            <p class="fs-6  ">Empower station</p>
+
+            <p>
+                <a href="" class="text-decoration-none">
+                    Learn More >
+                </a>
+                <a href="" class="text-decoration-none">Buy ></a>
+            </p>
+            <img src="images/p6.PNG" class="imageresponsive " style="width: 75%; margin-top: 5%;" alt="">
+        </div>
+    </div>
+    <div class="row text-center " style="padding: 10%;">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 " style="align-items: center;">
+            <p class="fs-2   lh-1">iPhone 13</p>
+            <p class="fs-6  ">Your new superpower</p>
+            <p>
+                <a href="" class="text-decoration-none">
+                    Learn More >
+                </a>
+                <a href="" class="text-decoration-none">Buy ></a>
+            </p>
+            <img src="images/p7.PNG" class="imageresponsive" style="width: 90%;" alt="">
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <p class="fs-2   lh-1">Watch</p>
+            <p class="fs-6  ">Empower station</p>
+
+            <p>
+                <a href="" class="text-decoration-none">
+                    Learn More >
+                </a>
+                <a href="" class="text-decoration-none">Buy ></a>
+            </p>
+            <img src="images/p8.PNG" class="imageresponsive " style="width: 75%; margin-top: 5%;" alt="">
+        </div>
+    </div>
+    <div class="row text-center " style="padding: 10%;">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 " style="align-items: center;">
+            <p class="fs-2   lh-1"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-apple" viewBox="0 0 16 16">
+                    <path
+                        d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z" />
+                    <path
+                        d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z" />
+                </svg>
+                Card</p>
+            <p class="fs-6  ">Get upto 3% Daily Cash Back with Every Purchase</p>
+            <p>
+                <a href="" class="text-decoration-none">
+                    Learn More >
+                </a>
+                <a href="" class="text-decoration-none">Buy ></a>
+            </p>
+            <img src="images/p9.PNG" class="imageresponsive" style="width: 90%;" alt="">
+        </div>
+
+    </div>
+    </div>
+    <div style="background-color: #F5F5F7; " class="pt-3">
+        <div class="mx-auto " style="width: 70%; font-size: x-small; opacity: 70%;  ">
+            <p class=" ">
+                To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone or iPad
+                with the latest version of iOS or iPadOS. Update to the latest version by going to Settings > General >
+                Software Update. Tap Download and Install.</p>
+
+            <p>Available for qualifying applicants in the United States.</p>
+
+            <p>Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.<br>
+            <p> Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.</p>
+            </p>
+            <hr>
+
+
+            <div class=" container mx-auto d-flex justify-content-between">
+                <!-- <nav class="navbar navbar-expand-lg"> -->
+                <div class="  ">
+                    <!-- <div class="collapse navbar-collapse" id="list1"> -->
+
+                    <ul class="d-none d-sm-none  d-md-block d-lg-block" style="list-style-type: none;" id="list1">
+                        <li>
+                            <b>
+                                Shop and learn
+                            </b>
+                        </li>
+                        <li class="nav-item">Mac</li>
+                        <li class="nav-item">iPad</li>
+                        <li class="nav-item">iPhone</li>
+                        <li class="nav-item">Watch</li>
+                        <li class="nav-item">AirPods</li>
+                        <li class="nav-item">TV&Home</li>
+                        <li class="nav-item">iPod Touch</li>
+                        <li class="nav-item">AirTag</li>
+                        <li class="nav-item">Accessories</li>
+                        <li class="nav-item">Gif Cards</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="list-groups d-none d-sm-none  d-md-block d-lg-block" style="list-style-type: none;">
+                        <li><b>
+                                Shop and learn
+                            </b>
+                        </li>
+                        <li>Mac</li>
+                        <li>iPad</li>
+                        <li>iPhone</li>
+                        <li>Watch</li>
+                        <li>AirPods</li>
+                        <li>TV&Home</li>
+                        <li>iPod Touch</li>
+                        <li>AirTag</li>
+                        <li>Accessories</li>
+                        <li>Gif Cards</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="list-groups d-none d-sm-none  d-md-block d-lg-block" style="list-style-type: none;">
+                        <li><b>
+                                Shop and learn
+                            </b>
+                        </li>
+                        <li>Mac</li>
+                        <li>iPad</li>
+                        <li>iPhone</li>
+                        <li>Watch</li>
+                        <li>AirPods</li>
+                        <li>TV&Home</li>
+                        <li>iPod Touch</li>
+                        <li>AirTag</li>
+                        <li>Accessories</li>
+                        <li>Gif Cards</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="list-groups d-none d-sm-none  d-md-block d-lg-block" style="list-style-type: none;">
+                        <li><b>
+                                Shop and learn
+                            </b>
+                        </li>
+                        <li>Mac</li>
+                        <li>iPad</li>
+                        <li>iPhone</li>
+                        <li>Watch</li>
+                        <li>AirPods</li>
+                        <li>TV&Home</li>
+                        <li>iPod Touch</li>
+                        <li>AirTag</li>
+                        <li>Accessories</li>
+                        <li>Gif Cards</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="list-groups d-none d-sm-none  d-md-block d-lg-block" style="list-style-type: none;">
+                        <li><b>
+                                Shop and learn
+                            </b>
+                        </li>
+                        <li>Mac</li>
+                        <li>iPad</li>
+                        <li>iPhone</li>
+                        <li>Watch</li>
+                        <li>AirPods</li>
+                        <li>TV&Home</li>
+                        <li>iPod Touch</li>
+                        <li>AirTag</li>
+                        <li>Accessories</li>
+                        <li>Gif Cards</li>
+                    </ul>
+                </div>
+
+                <!-- </nav> -->
+            </div>
+            <div class="d-block d-sm-block d-md-none d-lg-none">
+                <div class="d-flex justify-content-between">
+                    <p>Shop and Learn</p>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#list1"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i>+</i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="list1">
+
+                    <ul class="list-groups d-block d-sm-block d-md-none d-lg-none " style="list-style-type: none;">
+
+                        <li>Mac</li>
+                        <li>iPad</li>
+                        <li>iPhone</li>
+                        <li>Watch</li>
+                        <li>AirPods</li>
+                        <li>TV&Home</li>
+                        <li>iPod Touch</li>
+                        <li>AirTag</li>
+                        <li>Accessories</li>
+                        <li>Gif Cards</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between">
+                    <p>Services</p>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#list2"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i>+</i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="list2">
+
+                    <ul class="list-groups d-block d-sm-block d-md-none d-lg-none " style="list-style-type: none;">
+
+                        <li>Mac</li>
+                        <li>iPad</li>
+                        <li>iPhone</li>
+                        <li>Watch</li>
+                        <li>AirPods</li>
+                        <li>TV&Home</li>
+                        <li>iPod Touch</li>
+                        <li>AirTag</li>
+                        <li>Accessories</li>
+                        <li>Gif Cards</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between">
+                    <p>Account</p>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#list3"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i>+</i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="list3">
+
+                    <ul class="list-groups d-block d-sm-block d-md-none d-lg-none " style="list-style-type: none;">
+
+                        <li>Mac</li>
+                        <li>iPad</li>
+                        <li>iPhone</li>
+                        <li>Watch</li>
+                        <li>AirPods</li>
+                        <li>TV&Home</li>
+                        <li>iPod Touch</li>
+                        <li>AirTag</li>
+                        <li>Accessories</li>
+                        <li>Gif Cards</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between">
+                    <p>Apple Store</p>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#list4"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i>+</i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="list4">
+
+                    <ul class="list-groups d-block d-sm-block d-md-none d-lg-none " style="list-style-type: none;">
+
+                        <li>Mac</li>
+                        <li>iPad</li>
+                        <li>iPhone</li>
+                        <li>Watch</li>
+                        <li>AirPods</li>
+                        <li>TV&Home</li>
+                        <li>iPod Touch</li>
+                        <li>AirTag</li>
+                        <li>Accessories</li>
+                        <li>Gif Cards</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between">
+                    <p>For Bussiness</p>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#list5"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i>+</i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="list5">
+
+                    <ul class="list-groups d-block d-sm-block d-md-none d-lg-none " style="list-style-type: none;">
+
+                        <li>Mac</li>
+                        <li>iPad</li>
+                        <li>iPhone</li>
+                        <li>Watch</li>
+                        <li>AirPods</li>
+                        <li>TV&Home</li>
+                        <li>iPod Touch</li>
+                        <li>AirTag</li>
+                        <li>Accessories</li>
+                        <li>Gif Cards</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between">
+                    <p>For Education</p>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#list6"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i>+</i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="list6">
+
+                    <ul class="list-groups d-block d-sm-block d-md-none d-lg-none " style="list-style-type: none;">
+
+                        <li>Mac</li>
+                        <li>iPad</li>
+                        <li>iPhone</li>
+                        <li>Watch</li>
+                        <li>AirPods</li>
+                        <li>TV&Home</li>
+                        <li>iPod Touch</li>
+                        <li>AirTag</li>
+                        <li>Accessories</li>
+                        <li>Gif Cards</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between">
+                    <p>For HealthCare</p>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#list7"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i>+</i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="list7">
+
+                    <ul class="list-groups d-block d-sm-block d-md-none d-lg-none " style="list-style-type: none;">
+
+                        <li>Mac</li>
+                        <li>iPad</li>
+                        <li>iPhone</li>
+                        <li>Watch</li>
+                        <li>AirPods</li>
+                        <li>TV&Home</li>
+                        <li>iPod Touch</li>
+                        <li>AirTag</li>
+                        <li>Accessories</li>
+                        <li>Gif Cards</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between">
+                    <p>For Government</p>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#list8"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i>+</i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="list8">
+
+                    <ul class="list-groups d-block d-sm-block d-md-none d-lg-none " style="list-style-type: none;">
+
+                        <li>Mac</li>
+                        <li>iPad</li>
+                        <li>iPhone</li>
+                        <li>Watch</li>
+                        <li>AirPods</li>
+                        <li>TV&Home</li>
+                        <li>iPod Touch</li>
+                        <li>AirTag</li>
+                        <li>Accessories</li>
+                        <li>Gif Cards</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between">
+                    <p>About Apple</p>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#list9"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i>+</i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="list9">
+
+                    <ul class="list-groups d-block d-sm-block d-md-none d-lg-none " style="list-style-type: none;">
+
+                        <li>Mac</li>
+                        <li>iPad</li>
+                        <li>iPhone</li>
+                        <li>Watch</li>
+                        <li>AirPods</li>
+                        <li>TV&Home</li>
+                        <li>iPod Touch</li>
+                        <li>AirTag</li>
+                        <li>Accessories</li>
+                        <li>Gif Cards</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+            <hr>
+            <p>More ways to shop: Find an Apple Store or other retailer near you. Or call 1-800-MY-APPLE.</p>
+        </div>
+
+
+
+
+
+        
+
+    </div>
+
+    </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

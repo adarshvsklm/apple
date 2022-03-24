@@ -1,0 +1,29 @@
+p{
+   
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.navbar-align .nav-item a{
+    color: #D6D6D6;
+    font-size: 12px;
+    opacity: 85%;
+
+
+}
+.navbarStyle{
+ 
+    color: #ece8e8;
+
+}
+
+.bg-dark{
+    background:#313132; 
+
+}
+
+
+.main-head{
+margin-top: 100px;
+}
+li:not(:last-child) {
+    margin-bottom: 5px;
+}
